@@ -1,0 +1,141 @@
+@import "defaults";
+#main{
+    min-height: 100vh;
+    width: 100%;
+    background-image:$gradient;
+}
+#top{
+    padding:30px 15px 0 0;
+    #top_left{
+        position: relative;
+        margin-right:15px;
+        p{
+            color:$white;
+            font-weight: 500;
+            &:first-child{
+                line-height: 40px;
+                font-size:30px;
+            }
+            &:last-child{
+                line-height:20px;
+                font-size:20px;
+            }
+        }
+    }
+    #top_right{
+        img{
+            border-radius: 100%;
+        }
+        #option{
+            display:none;
+            position: absolute;
+            top:110px;
+            right:50px;
+            li{
+                margin-top:10px;
+                display: flex;
+                justify-content: space-between;
+                    p{
+                        margin-right:5px;
+                        line-height:25px;
+                        font-size:14px;
+                        font-weight: 500;
+                        color:$white;
+                    }
+                    i{
+                        display: inline;
+                        padding:5px;
+                        border-radius:100%;
+                        background-color:$emerald;
+                        color:$darkgrey;
+                    }
+            }
+        }
+    }
+}
+#list{
+    
+    z-index: 5;
+    margin:70px auto;
+    width:900px;
+    .creat_new{
+        
+        background-color: $lightemerald;
+        color:$white;
+        padding:12px 5px;
+            li{
+                cursor: pointer;
+                padding:0 5px;
+            }
+    }
+    .list_item{
+        margin-top:20px;
+        padding:30px 40px;
+        width: 100%;
+        background-color:$box;
+        &:hover{
+            background-color:$lightemerald;
+        }
+        &:hover .list_item_right{
+            transition:1s;
+            opacity: 1;
+        }
+            .user_image{
+                img{
+                    margin-top:8px;
+                    border-radius:100%;
+                }
+            }
+            .user_info{
+                margin-left:20px;
+                li{
+                    color:$white;
+                    font-size:15px;
+                    font-weight:500;
+                    &:first-child{
+                        font-size:25px;
+                    }
+                }
+            
+            }
+            
+        }
+        .list_item_right{
+            opacity:0;
+            li{
+                cursor: pointer;
+                margin-left:30px;
+            }
+        }
+        .accardion{
+            
+            min-height:300px;
+            margin-top:3px;
+            padding:40px 120px;
+            width: 100%;
+            background-color:$box;
+                li{
+                    margin-bottom: 10px;
+                    text-align: center;
+                    color:$white;
+                    display:flex;
+                        span{
+                            font-size:22px;
+                        }
+                        p{
+                            margin-top:3px;
+                            margin-left:8px;
+                        }
+                }
+        }
+            
+    }
+    .list_box{
+        margin-top:20px;
+    }
+    .showoption{
+        display: block !important;
+    }
+    .hideop{
+        display: none !important;
+    }

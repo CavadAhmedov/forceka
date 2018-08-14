@@ -1,0 +1,193 @@
+/*DEFAULTS */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+}
+
+/* COLORS */
+#main {
+  min-height: 100vh;
+  width: 100%;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#21252B), to(#1FD6D0));
+  background-image: linear-gradient(#21252B 0%, #1FD6D0 100%);
+}
+
+#top {
+  padding: 30px 15px 0 0;
+}
+
+#top #top_left {
+  position: relative;
+  margin-right: 15px;
+}
+
+#top #top_left p {
+  color: #fff;
+  font-weight: 500;
+}
+
+#top #top_left p:first-child {
+  line-height: 40px;
+  font-size: 30px;
+}
+
+#top #top_left p:last-child {
+  line-height: 20px;
+  font-size: 20px;
+}
+
+#top #top_right img {
+  border-radius: 100%;
+}
+
+#top #top_right #option {
+  display: none;
+  position: absolute;
+  top: 110px;
+  right: 50px;
+}
+
+#top #top_right #option li {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#top #top_right #option li p {
+  margin-right: 5px;
+  line-height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+#top #top_right #option li i {
+  display: inline;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #1FD6D0;
+  color: #21252B;
+}
+
+#list {
+  z-index: 5;
+  margin: 70px auto;
+  width: 900px;
+}
+
+#list .creat_new {
+  background-color: #37ABAA;
+  color: #fff;
+  padding: 12px 5px;
+}
+
+#list .creat_new li {
+  cursor: pointer;
+  padding: 0 5px;
+}
+
+#list .list_item {
+  margin-top: 20px;
+  padding: 30px 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#list .list_item:hover {
+  background-color: #37ABAA;
+}
+
+#list .list_item:hover .list_item_right {
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 1;
+}
+
+#list .list_item .user_image img {
+  margin-top: 8px;
+  border-radius: 100%;
+}
+
+#list .list_item .user_info {
+  margin-left: 20px;
+}
+
+#list .list_item .user_info li {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#list .list_item .user_info li:first-child {
+  font-size: 25px;
+}
+
+#list .list_item_right {
+  opacity: 0;
+}
+
+#list .list_item_right li {
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+#list .accardion {
+  min-height: 300px;
+  margin-top: 3px;
+  padding: 40px 120px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+#list .accardion li {
+  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#list .accardion li span {
+  font-size: 22px;
+}
+
+#list .accardion li p {
+  margin-top: 3px;
+  margin-left: 8px;
+}
+
+.list_box {
+  margin-top: 20px;
+}
+
+.showoption {
+  display: block !important;
+}
+
+.hideop {
+  display: none !important;
+}
+/*# sourceMappingURL=admincrudlist.css.map */

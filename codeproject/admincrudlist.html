@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--Bootstrap 4.1.0 CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <!--FONTSAWESOME-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/admincrudlist.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="main" class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="top" class="d-flex justify-content-end">
+                    <div id="top_left">
+                        <p>Loremlor</p>
+                        <p>Ipsumlorem</p>
+                    </div>
+                    <div id="top_right">
+                        <img src="img/user.png" alt="user" height="70" width="70">
+                        <div id="option">
+                            <ul>
+                                <li>
+                                    <p>
+                                        Edit Profile
+                                    </p>
+                                    <i class="fas fa-cog"></i>
+                                </li>
+                                <li>
+                                    <p>
+                                        Log Out
+                                    </p>
+                                    <i class="fas fa-upload"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <!--LIST--> 
+
+                <div id="list">
+
+                    <!--LIST BOX-->
+                    <div class="list_box d-flex align-items-start flex-column">
+
+                        <!--CREAT NEW-->
+
+                        <div class="creat_new">
+                            <ul class="d-flex">
+                                <li>Add New</li>
+                                <li><i class="fas fa-plus-circle"></i></li>
+                            </ul>
+                        </div>
+
+                        <!--LIST ITEM-->
+
+                        <div class="list_item d-flex justify-content-between  align-items-center">
+                                <div class="list_item_left d-flex">
+                                        <div class="user_image">
+                                            <img src="img/user.png" alt="user_image" height="70" width="70">
+                                        </div>
+                                        <div class="user_info">
+                                            <ul>
+                                                <li>Lorem</li>
+                                                <li>Editor</li>
+                                                <li>Loremipsum</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list_item_right">
+                                        <ul class="d-flex">
+                                            <li class="crud_list"><img src="icons/list.png" alt="list" height="50" width="50"></li>
+                                            <li class="crud_edit"><img src="icons/edit.png" alt="edit" height="50" width="50"></li>
+                                            <li><img src="icons/padlock.png" alt="lock" height="50" width="50"></li>
+                                            <li><img src="icons/shield.png" alt="shield" height="50" width="50"></li>
+                                        </ul>
+                                    </div>
+                        </div>
+
+                        <!--ACCARDION-->
+                        <div class="accardion">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fas fa-birthday-cake"></i></span><p>23 Oct 1991</p></li>
+                                        <li><span><i class="fas fa-mobile"></i></span><p>+994 50 555 55 55</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fab fa-facebook"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-instagram"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-linkedin"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-github-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="list_box d-flex align-items-start flex-column">
+
+                        <!--CREAT NEW-->
+
+                        <div class="creat_new">
+                            <ul class="d-flex">
+                                <li>Add New</li>
+                                <li><i class="fas fa-plus-circle"></i></li>
+                            </ul>
+                        </div>
+
+                        <!--LIST ITEM-->
+
+                        <div class="list_item d-flex justify-content-between  align-items-center">
+                                <div class="list_item_left d-flex">
+                                        <div class="user_image">
+                                            <img src="img/user.png" alt="user_image" height="70" width="70">
+                                        </div>
+                                        <div class="user_info">
+                                            <ul>
+                                                <li>Lorem</li>
+                                                <li>Editor</li>
+                                                <li>Loremipsum</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list_item_right">
+                                        <ul class="d-flex">
+                                            <li class="crud_list"><img src="icons/list.png" alt="list" height="50" width="50"></li>
+                                            <li class="crud_edit"><img src="icons/edit.png" alt="edit" height="50" width="50"></li>
+                                            <li><img src="icons/padlock.png" alt="lock" height="50" width="50"></li>
+                                            <li><img src="icons/shield.png" alt="shield" height="50" width="50"></li>
+                                        </ul>
+                                    </div>
+                        </div>
+
+                        <!--ACCARDION-->
+                        <div class="accardion">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fas fa-birthday-cake"></i></span><p>23 Oct 1991</p></li>
+                                        <li><span><i class="fas fa-mobile"></i></span><p>+994 50 555 55 55</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fab fa-facebook"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-instagram"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-linkedin"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-github-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="list_box d-flex align-items-start flex-column">
+
+                        <!--CREAT NEW-->
+
+                        <div class="creat_new">
+                            <ul class="d-flex">
+                                <li>Add New</li>
+                                <li><i class="fas fa-plus-circle"></i></li>
+                            </ul>
+                        </div>
+
+                        <!--LIST ITEM-->
+
+                        <div class="list_item d-flex justify-content-between  align-items-center">
+                                <div class="list_item_left d-flex">
+                                        <div class="user_image">
+                                            <img src="img/user.png" alt="user_image" height="70" width="70">
+                                        </div>
+                                        <div class="user_info">
+                                            <ul>
+                                                <li>Lorem</li>
+                                                <li>Editor</li>
+                                                <li>Loremipsum</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list_item_right">
+                                        <ul class="d-flex">
+                                            <li class="crud_list"><img src="icons/list.png" alt="list" height="50" width="50"></li>
+                                            <li class="crud_edit"><img src="icons/edit.png" alt="edit" height="50" width="50"></li>
+                                            <li><img src="icons/padlock.png" alt="lock" height="50" width="50"></li>
+                                            <li><img src="icons/shield.png" alt="shield" height="50" width="50"></li>
+                                        </ul>
+                                    </div>
+                        </div>
+
+                        <!--ACCARDION-->
+                        <div class="accardion">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fas fa-birthday-cake"></i></span><p>23 Oct 1991</p></li>
+                                        <li><span><i class="fas fa-mobile"></i></span><p>+994 50 555 55 55</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fab fa-facebook"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-instagram"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-linkedin"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-github-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+
+                    <div class="list_box d-flex align-items-start flex-column">
+
+                        <!--CREAT NEW-->
+
+                        <div class="creat_new">
+                            <ul class="d-flex">
+                                <li>Add New</li>
+                                <li><i class="fas fa-plus-circle"></i></li>
+                            </ul>
+                        </div>
+
+                        <!--LIST ITEM-->
+
+                        <div class="list_item d-flex justify-content-between  align-items-center">
+                                <div class="list_item_left d-flex">
+                                        <div class="user_image">
+                                            <img src="img/user.png" alt="user_image" height="70" width="70">
+                                        </div>
+                                        <div class="user_info">
+                                            <ul>
+                                                <li>Lorem</li>
+                                                <li>Editor</li>
+                                                <li>Loremipsum</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list_item_right">
+                                        <ul class="d-flex">
+                                            <li class="crud_list"><img src="icons/list.png" alt="list" height="50" width="50"></li>
+                                            <li class="crud_edit"><img src="icons/edit.png" alt="edit" height="50" width="50"></li>
+                                            <li><img src="icons/padlock.png" alt="lock" height="50" width="50"></li>
+                                            <li><img src="icons/shield.png" alt="shield" height="50" width="50"></li>
+                                        </ul>
+                                    </div>
+                        </div>
+
+                        <!--ACCARDION-->
+                        <div class="accardion">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fas fa-birthday-cake"></i></span><p>23 Oct 1991</p></li>
+                                        <li><span><i class="fas fa-mobile"></i></span><p>+994 50 555 55 55</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fab fa-facebook"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-instagram"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-linkedin"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-github-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="list_box d-flex align-items-start flex-column">
+
+                        <!--CREAT NEW-->
+
+                        <div class="creat_new">
+                            <ul class="d-flex">
+                                <li>Add New</li>
+                                <li><i class="fas fa-plus-circle"></i></li>
+                            </ul>
+                        </div>
+
+                        <!--LIST ITEM-->
+
+                        <div class="list_item d-flex justify-content-between  align-items-center">
+                                <div class="list_item_left d-flex">
+                                        <div class="user_image">
+                                            <img src="img/user.png" alt="user_image" height="70" width="70">
+                                        </div>
+                                        <div class="user_info">
+                                            <ul>
+                                                <li>Lorem</li>
+                                                <li>Editor</li>
+                                                <li>Loremipsum</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="list_item_right">
+                                        <ul class="d-flex">
+                                            <li class="crud_list"><img src="icons/list.png" alt="list" height="50" width="50"></li>
+                                            <li class="crud_edit"><img src="icons/edit.png" alt="edit" height="50" width="50"></li>
+                                            <li><img src="icons/padlock.png" alt="lock" height="50" width="50"></li>
+                                            <li><img src="icons/shield.png" alt="shield" height="50" width="50"></li>
+                                        </ul>
+                                    </div>
+                        </div>
+
+                        <!--ACCARDION-->
+                        <div class="accardion">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fas fa-birthday-cake"></i></span><p>23 Oct 1991</p></li>
+                                        <li><span><i class="fas fa-mobile"></i></span><p>+994 50 555 55 55</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fas fa-envelope"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                                <div class="col-sm-6">
+                                    <ul>
+                                        <li><span><i class="fab fa-facebook"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-instagram"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-linkedin"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-twitter-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                        <li><span><i class="fab fa-github-square"></i></span><p>namesurname@code.ed.az</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <script src="js/admincrudlist.js"></script>
+</body>
+
+</html>
